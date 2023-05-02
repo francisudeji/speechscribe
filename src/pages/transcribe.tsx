@@ -22,10 +22,3 @@ export default function Transcribe() {
     </>
   );
 }
-
-export const getServerSideProps = (context) => {
-  console.log(context);
-  return {
-    props: {},
-  };
-};
